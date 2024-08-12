@@ -1,0 +1,34 @@
+/* src/FatTable.css */
+
+.filter-container {
+  margin-bottom: 20px;
+}
+
+.fat-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.fat-table th,
+.fat-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.fat-table th {
+  background-color: #f2f2f2;
+  cursor: pointer;
+}
+
+.fat-table th:hover {
+  background-color: #ddd;
+}
+
+.fat-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.fat-table tr:hover {
+  background-color: #f1f1f1;
+}
